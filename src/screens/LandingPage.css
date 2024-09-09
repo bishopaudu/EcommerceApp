@@ -1,0 +1,194 @@
+/* Landing Page Styles */
+.landing-page {
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+  .supply {
+    color: #0061D4;
+  }
+  
+  .city {
+    color: black;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+    animation: slide 1s ease-in-out;
+  }
+  
+  @keyframes slide {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  .hero-title {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .hero-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #0061D4;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .hero-button:hover {
+    background-color: #004A9F;
+  }
+  
+  /* Categories Section */
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 20px;
+  }
+  
+  .grid-item {
+    flex-basis: 22%;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grid-item img {
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .grid-item p {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Reasons to Choose SupplyCity Section */
+  .reasons-section {
+    padding: 60px 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  .reasons-title {
+    font-size: 2.5rem;
+    color: #0061D4;
+    margin-bottom: 50px;
+  }
+  
+  .reasons-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .card {
+    flex-basis: 30%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    color: #0061D4;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  
+  /* Footer Section */
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .footer-content h4 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .footer-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  @media (max-width: 1024px) {
+    .grid-item {
+      flex-basis: 48%; /* Show 2 items per row */
+    }
+  
+    .card {
+      flex-basis: 48%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .grid-item {
+      flex-basis: 100%; /* Show 1 item per row */
+    }
+  
+    .reasons-cards {
+      flex-direction: column;
+    }
+  
+    .card {
+      flex-basis: 100%;
+    }
+  }
+  
+  
+  

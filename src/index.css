@@ -19,8 +19,11 @@ li {
   margin-right: 6px;
   background: transparent;
   border: none;
-  border: 0.6px solid #ccc;
+ /* border: 0.6px solid #ccc;*/
+ border: 0.6px solid #0061D4 ;
   border-radius: 5px;
-  color: #323232;
+  /*color: #323232;*/
+  color: #fff;
   cursor: pointer;
+  background-color:#0061D4;
 }

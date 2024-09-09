@@ -1,14 +1,14 @@
-/*import { useState } from "react";
+import { useState } from "react";
 
-import Navigation from "./Navigation/Nav";
-import Products from "./Products/Products"
-import products from "./db/data";
-import Recommended from "./Recommended/Recommended";
-import Sidebar from "./Sidebar/Sidebar";
-import Card from "./components/Card";
-import "./index.css";
+import Navigation from "../Navigation/Nav";
+import Products from "../Products/Products"
+import products from "../db/data";
+import Recommended from "../Recommended/Recommended";
+import Sidebar from "../sidebar/Sidebar";
+import Card from "../components/Card";
+import "../index.css";
 
-function App() {
+function ProductsScreen() {
   const [selectedCategory, setSelectedCategory] = useState(null);
 
   // ----------- Input Filter -----------
@@ -81,17 +81,4 @@ function App() {
   );
 }
 
-export default App;*/
-
-import LandingPage from "./screens/LandingPage";
-//import ProductsScreen from "./screens/ProductsScreens";
-
-function App() {
- 
-
-  return (
-    <LandingPage/>
-  );
-}
-
-export default App;
+export default ProductsScreen;
