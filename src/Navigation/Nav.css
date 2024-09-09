@@ -1,0 +1,48 @@
+nav {
+    display: flex;
+    border-bottom: 2px solid #f3f3f3;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    z-index: 999;
+    margin-left: 2rem;
+    /*background-color: #0061D4;*/
+  }
+  
+.topnav-title {
+  display: flex;
+  /*align-items: center;*/
+  font-size: 30px;
+  font-weight: 700;
+  word-wrap: break-word;
+  margin-left: 3rem;
+}
+
+.topnav-supply {
+  color: #0061D4;
+  font-size: 30px;
+  font-weight: 700;
+  word-wrap: break-word; /* Adjust margin to reduce space between the text */
+}
+
+.topnav-city {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+}
+  input {
+    padding: 12px 20px;
+    border: none;
+    background: #f7f6f6;
+    outline: none;
+    margin-right: 20px;
+    border-radius: 5px;
+    position: relative;
+    width: 14rem;
+  }
+  
+  .nav-icons {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 2rem;
+  }
